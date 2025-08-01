@@ -17,7 +17,7 @@ on:
 
 jobs:
   hugoblox:
-    if: github.repository_owner != 'HugoBlox'
+    if: github.repository_owner != 'Shuvoishere'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repo
